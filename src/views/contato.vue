@@ -4,8 +4,9 @@
 <p>Conteúdo da página Contato.</p>
 </div>
 </template>
+
 <script>
 export default {
-name: 'contato'
+name: 'contato',
 }
 </script>
