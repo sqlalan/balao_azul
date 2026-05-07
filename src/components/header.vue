@@ -1,7 +1,7 @@
 <template>
   <header class="navbar">
     <div class="navbar_logo">
-        <img src="../assets/logo.png" alt="Logo do Site" class="navbar_logo_img">
+        <img src="../assets/logo_apeau.png" alt="Logo do Site" class="navbar_logo_img">
     </div>
     <nav aria-label="Menu Principal">
         <ul class="navbar_lista">
@@ -24,7 +24,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #333333;
     padding: 0 1.5rem;
     height: 100px;
     border-bottom: 1px solid #444;
@@ -34,6 +34,12 @@ export default {
 .navbar_logo {
     display: flex;
     align-items: center;
+
+}
+
+.navbar_logo_img {
+    max-height: 60px;
+    width: auto;
 }
 
 .navbar_lista {
